@@ -16,8 +16,8 @@ let render_projects = (slug) => {
             title: 'Personalized Cancer Risk Prediction',
             github: 'https://github.com/wwylab/LFSPRO',
             technologies: ['R', 'C++', 'Linux'],
-            description: "I developed a Bayesian semi-parametric model for cancer risk prediction. Our approach is the first to model multiple primary cancers and competing risks from multiple cancer types, while accounting for the pedigree structure of the families.",
-            categories: ['featured', 'statistics']
+            description: "We developed a Bayesian semi-parametric model for cancer risk prediction. Our approach is the first to model multiple primary cancers and competing risks from multiple cancer types, while accounting for the pedigree structure of the families.",
+            categories: ['featured']
         },
         {
             image: 'assets/images/validation.png',
@@ -25,8 +25,8 @@ let render_projects = (slug) => {
             title: 'Model Validation on Clinically Ascertained Families',
             github: 'https://github.com/peng-gang/LFSPROShiny',
             technologies: ['R', 'Shiny', 'git'],
-            description: "The project aims to validate existing cancer risk prediction models developed by our lab, which were trained using a research-based cohort, on a clinical dataset from MD Anderson Cancer Center. We are developing a Shiny app for clinicians to use our models on real patients.",
-            categories: ['featured', 'statistics']
+            description: "The project aims to validate existing cancer risk prediction models developed by our lab, which were trained using a research-based cohort, on a clinical dataset from MD Anderson Cancer Center. We are developing a Shiny app for genetic counselors to use our models on real patients.",
+            categories: ['featured']
         },
     ]
 
